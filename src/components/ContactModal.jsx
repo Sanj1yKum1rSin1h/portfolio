@@ -29,7 +29,7 @@ export default function ContactModal({ isOpen, onClose }) {
             </div>
             <div>
               <h3 className="text-lg font-bold text-portfolio-text">Sanjay Kumar</h3>
-              <p className="text-sm text-accent-light">Software Development Engineer</p>
+              <p className="text-sm text-accent-light">Software Engineer</p>
             </div>
           </div>
 
