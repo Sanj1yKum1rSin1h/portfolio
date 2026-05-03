@@ -4,40 +4,45 @@ export default function Skills() {
   const groups = [
     {
       title: "Languages",
-      items: ["Java", "C++", "JavaScript", "Python", "SQL", "DSA"],
+      items: ["Java", "C++", "Python", "SQL", "JavaScript"],
     },
     {
       title: "Backend & Architecture",
-      items: ["Microservices", "REST APIs", "EDA", "Distributed Systems"],
+      items: ["Distributed Systems", "Microservices", "Concurrency Control", "API Gateway", "Event-Driven Arch"],
     },
     {
-      title: "Frameworks & Tools",
-      items: ["Spring Boot", "Spring Security", "Hibernate", "Maven", "Git"],
+      title: "Frameworks & Testing",
+      items: ["Spring Boot", "Spring Security", "Hibernate ORM", "JUnit/Mockito"],
     },
     {
-      title: "Databases",
+      title: "Databases & Caching",
       items: ["PostgreSQL", "MongoDB", "Redis"],
     },
     {
       title: "Cloud & DevOps",
-      items: ["AWS (S3, SQS, KMS)", "Secrets Manager", "Jenkins", "Docker", "Kibana"],
+      items: ["AWS (S3, SQS)", "Docker", "Jenkins CI/CD", "Kibana", "Secrets Manager"],
     },
   ];
 
   const getColor = (skill) => {
     const map = {
       "Java": "text-purple-400 bg-purple-500/10 border-purple-500/20",
-      "JavaScript": "text-blue-400 bg-blue-500/10 border-blue-500/20",
-      "Python": "text-yellow-400 bg-yellow-500/10 border-yellow-500/20",
+      "JavaScript": "text-yellow-400 bg-yellow-500/10 border-yellow-500/20",
+      "Python": "text-blue-400 bg-blue-500/10 border-blue-500/20",
       "Spring Boot": "text-emerald-400 bg-emerald-500/10 border-emerald-500/20",
       "Spring Security": "text-emerald-400 bg-emerald-500/10 border-emerald-500/20",
-      "PostgreSQL": "text-orange-400 bg-orange-500/10 border-orange-500/20",
+      "Hibernate ORM": "text-orange-400 bg-orange-500/10 border-orange-500/20",
+      "JUnit/Mockito": "text-emerald-400 bg-emerald-500/10 border-emerald-500/20",
+      "PostgreSQL": "text-blue-400 bg-blue-500/10 border-blue-500/20",
       "MongoDB": "text-emerald-400 bg-emerald-500/10 border-emerald-500/20",
       "Redis": "text-red-400 bg-red-500/10 border-red-500/20",
-      "AWS (S3, SQS, KMS)": "text-purple-400 bg-purple-500/10 border-purple-500/20",
+      "AWS (S3, SQS)": "text-orange-400 bg-orange-500/10 border-orange-500/20",
       "Secrets Manager": "text-accent-light bg-accent-main/10 border-accent-main/20",
       "Docker": "text-blue-400 bg-blue-500/10 border-blue-500/20",
-      "Jenkins": "text-red-400 bg-red-500/10 border-red-500/20",
+      "Jenkins CI/CD": "text-red-400 bg-red-500/10 border-red-500/20",
+      "Distributed Systems": "text-accent-light bg-accent-main/10 border-accent-main/20",
+      "Concurrency Control": "text-purple-400 bg-purple-500/10 border-purple-500/20",
+      "API Gateway": "text-blue-400 bg-blue-500/10 border-blue-500/20",
     };
     return map[skill] || "text-portfolio-muted bg-slate-800/50 border-portfolio-border";
   };
