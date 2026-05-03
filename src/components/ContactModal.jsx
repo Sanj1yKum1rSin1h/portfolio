@@ -1,5 +1,5 @@
 import React from "react";
-import { X, Mail, Phone, ExternalLink } from "lucide-react";
+import { X, Mail, Phone, ExternalLink, FileText } from "lucide-react";
 
 export default function ContactModal({ isOpen, onClose }) {
   if (!isOpen) return null;
@@ -22,6 +22,18 @@ export default function ContactModal({ isOpen, onClose }) {
 
         {/* Body */}
         <div className="p-6 space-y-6 relative z-10">
+
+          {/* View Resume Option */}
+          <a href="https://drive.google.com/file/d/1EnxcgyPYTkpPctYCeGZac0mKL66KpXPr/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 p-4 rounded-xl border border-portfolio-border bg-portfolio-bg hover:border-purple-500/50 hover:bg-purple-500/10 transition group">
+            <div className="w-10 h-10 rounded-full bg-purple-500/20 flex items-center justify-center text-purple-400 group-hover:bg-purple-500 group-hover:text-white transition">
+              <FileText size={18} />
+            </div>
+            <div className="flex-1">
+              <p className="text-sm font-medium text-portfolio-text">View Resume</p>
+              <p className="text-xs text-portfolio-muted">Download my CV</p>
+            </div>
+            <ExternalLink size={16} className="text-portfolio-muted group-hover:text-purple-400 transition" />
+          </a>
 
           <div className="flex items-center gap-4">
             <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-accent-main/30 shadow-lg shadow-accent-main/20">

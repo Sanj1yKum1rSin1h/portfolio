@@ -26,7 +26,7 @@ export default function Hero({ theme, setTheme, accentColor, setAccentColor }) {
           </button>
         </div>
 
-        <a href="https://drive.google.com/file/d/1baWcXMYJPNv7PxCuz23OS-uiMx4QGAmw/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-accent-main px-5 py-2.5 rounded-xl hover:bg-accent-dark transition shadow-lg shadow-accent-main/20 font-medium text-sm">
+        <a href="https://drive.google.com/file/d/1EnxcgyPYTkpPctYCeGZac0mKL66KpXPr/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-accent-main px-5 py-2.5 rounded-xl hover:bg-accent-dark transition shadow-lg shadow-accent-main/20 font-medium text-sm">
           <Download size={16} />
           Resume <span className="hidden sm:inline">(PDF)</span>
         </a>
@@ -55,7 +55,7 @@ export default function Hero({ theme, setTheme, accentColor, setAccentColor }) {
         </p>
 
         <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-          <a href="https://drive.google.com/file/d/1baWcXMYJPNv7PxCuz23OS-uiMx4QGAmw/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2 bg-accent-main px-6 py-3 rounded-xl hover:bg-accent-dark transition font-medium shadow-lg shadow-accent-main/25 w-full sm:w-auto">
+          <a href="https://drive.google.com/file/d/1EnxcgyPYTkpPctYCeGZac0mKL66KpXPr/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex justify-center items-center gap-2 bg-accent-main px-6 py-3 rounded-xl hover:bg-accent-dark transition font-medium shadow-lg shadow-accent-main/25 w-full sm:w-auto">
             <Download size={18} />
             View Resume
           </a>
